@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="stlyles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div align="center" class="container">
+        <h1>Student Enrollment Form</h1>
+        <form id="enrollment-form">
+            <div class="form-group">
+                <label for="name">Student's Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+                <br />
+            <div class="form-group">
+                <label for="course">Course Selection</label>
+                <select id="course" name="course" required>
+                    <option value="">Select a course</option>
+                    <option value="course1">Btech</option>
+                    <option value="course2">MCA</option>
+                    <option value="course3">MBA</option>
+                </select>
+            </div>
+                    <br/>
+            <div class="form-group">
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
